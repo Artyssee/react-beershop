@@ -1,0 +1,10 @@
+{
+    "extends": ["standard", "eslint-config-standard-react"],
+    "rules": {
+        "semi": ["error", "always"]
+    },
+    "plugins": ["jest"],
+    "env": {
+        "jest/globals": true
+    }
+}
