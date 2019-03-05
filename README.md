@@ -1,5 +1,11 @@
 # This is the react beershop
 
+## How to setup the project
+
+1. Clone this project locally on your computer
+2. Run npm ci to install the necessary modules
+3. run npm run build & npm run start to test the project. npm run dev could also be run but this is normally for development, so the code might not be as optimised.
+
 ## What the assignment was
 
 Wee needed to make the following
