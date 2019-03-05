@@ -1,10 +1,15 @@
 {
     "extends": ["standard", "eslint-config-standard-react"],
     "rules": {
-        "semi": ["error", "always"]
+        "semi": ["error", "always"],
+        "no-use-before-define": "off"
     },
     "plugins": ["jest"],
     "env": {
-        "jest/globals": true
+        "jest/globals": true,
+        "browser": true
+    },
+    "globals": { 
+        "fetch": true
     }
 }

@@ -1,0 +1,12 @@
+@import '../../styles/normalize.scss';
+@import '../../styles/main.scss';
+
+.ProductImage {
+    width: 300px;
+    height: 200px;
+}
+
+.ProductContainer {
+    text-decoration: none;
+    color: $black-color;
+}

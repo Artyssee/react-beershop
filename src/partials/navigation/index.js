@@ -7,7 +7,7 @@ function Navigation () {
     <nav className={Styles.mainNavigation}>
       <ul className={Styles.mainNavigationList}>
         <li className={Styles.mainNavigationListItem}>
-          <Link href='/overview'>
+          <Link href='/'>
             <a className={Styles.mainNavigationListLink}>Overview</a>
           </Link>
         </li>
