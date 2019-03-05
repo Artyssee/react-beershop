@@ -1,1 +1,11 @@
 @import '../normalize.scss';
+
+.productList {
+    display: flex;
+    flex-direction: row;
+    background-color: green;
+    width: 100%;
+    height: 100vh;
+    justify-content: space-around;
+    padding: 20px 0;
+}
